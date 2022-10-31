@@ -1,0 +1,387 @@
+body {
+  background-color: white;
+  text-align: center;
+
+
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(image/hero.jpg);
+  background-size: cover;
+  background-position:center;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+h1 {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  padding-top: 155;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.subheading-hero {
+  font-size: 1.5rem;
+  height: 10vh;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.logo-hero {
+  width: 143px;
+  margin-top: 47px;
+  padding-bottom: 100px;
+  margin-left: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  color: white;
+  height: 350px;
+}
+
+.hero-shop {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  padding: 0;
+  background-color: #8c4d18;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.hero-shop:hover {
+  background-color: #a25a1e;
+}
+
+.button-text {
+  align-items: center;
+  padding: 10px 30px;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding-top: 50px;
+  display: flex;
+  font-size: 2rem;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: .9rem;
+  color: white;
+  padding: .5em 1.5em;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #8c4d18;
+}
+
+.video {
+  padding-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 0;
+  color: black;
+  font-size: 2rem;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  color: #262525;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.readmore-button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  padding: 0;
+  background-color: #8c4d18;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.readmore-button:hover {
+  background-color: #a25a1e;
+}
+
+.about-us-p {
+  color: black;
+  font-size: 1rem;
+  width: 1000px;
+  height: 50px; text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+
+.row {
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
+  height: 400px;
+}
+
+.swimwear-img {
+  background: url(image/swimwear.png);
+  position: absolute;
+  background-size: cover;
+  background-position: 0;
+  width: 350px;
+  height: 450px;
+  margin-left: 100px;
+  transition: 1s;
+}
+.swimwear-img:hover{transform:scale(1.2);
+                    z-index:2;}
+.button1{margin-left: 170px;
+        width: 150px;
+        height: 0;
+        }
+.feature1 {
+  color: white;
+  margin-top: 300px;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.line {
+  width: 350px;
+  background: white;
+  height: 4px;
+}
+
+.ftdescription {
+  color: white;
+}
+
+.dresses-img {
+  background: url(image/dresses.png);
+  position: absolute;
+  background-size: cover;
+  background-position: 10%;
+  margin-left: 490px;
+  width: 350px;
+  height: 450px;
+  transition: 1s;
+}
+.dresses-img:hover{transform:scale(1.2);
+                    z-index:2;}
+.button2{margin-left: 570px;
+         width: 150px;
+         height: 0;}
+
+
+.jeans-img {
+  background: url(image/jeans.png);
+  position: absolute;
+  background-size: cover;
+  background-position: 10%;
+  width: 350px;
+  height: 450px;
+  margin-left: 880px;
+  transition: 1s;
+}
+.jeans-img:hover{transform:scale(1.2);
+                    z-index:2;}
+.button3{margin-left: 970px;
+         width: 150px;}
+
+.feature-buttons{align-items: center;}
+.col {align-items: center;
+width: 100%;
+margin:  0;
+}
+
+.Client-Testimonials {height: 350px;}
+
+.Testimonial1 {  position: absolute;
+  background-size: cover;
+  background-color: #215663;
+  background-position: 10%;
+  margin-left: 100px;
+  width: 350px;
+  height: 250px;
+}
+
+.Testimonial2 {  position: absolute;
+  background-size: cover;
+  background-color: #215663;
+  background-position: 10%;
+  margin-left: 490px;
+  width: 350px;
+  height: 250px;
+}
+
+.Testimonial3 {  position: absolute;
+  background-size: cover;
+  background-color: #215663;
+  background-position: 10%;
+  margin-left: 880px;
+  width: 350px;
+  height: 250px;
+}
+
+.text {color: white;
+      padding-top: 90px;
+      font-size: 1rem;
+      font-family: serif;}
+
+.slider {
+  background: url(image/model.png);
+  background-size: cover;
+  background-position: 10%;
+  width: 200px;
+  height: 350px;
+  margin-left: 150px;
+  margin-top: 10px;
+  animation: change-bg 10s linear infinite
+  }
+
+@keyframes change-bg {
+  0%{background:url(image/model.png); }
+  20%{background:url(image/model.png); }
+  25%{background:url(image/swim.png); }
+  45%{background:url(image/swim.png); }
+  50%{background:url(image/dress.png); }
+  70%{background:url(image/jean.png); }
+  75%{background:url(image/jean.png); }
+}
+
+.Qoute {
+        height: 380px;}
+
+.inspiration {  background-size: cover;
+                background-position: 10%;
+                margin-left: 250px;
+                width: 550px;
+                height: 50px;
+                padding-top: 100px;
+                position: absolute;}
+
+.qoute-button {margin-top: 200px;
+               margin-left: 450px;
+               height: 100%;
+               display: inline-flex;
+               height: 40px;
+               width: 150px;
+               background-color: #8c4d18;
+               border: none;
+               outline: none;
+               font-size: 16px;
+               font-weight: 500;
+               color: white;
+               cursor: pointer;}
+.qoute-button:hover {
+  background-color: #a25a1e;
+}
+.box {background-color: #215663;
+      width: 100%;
+      height: 280px;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position: 100%;
+      }
+.footertext {color: white;
+             margin-left: 190px;
+             position: absolute;
+             font-family: sans-serif;}
+
+.sub {color: white;
+      margin-left: 190px;
+      position: absolute;
+      font-family: sans-serif;
+      padding-top: 50px;
+      font-weight: normal;}
+
+.list {position: absolute;
+       left: 0;
+       margin-left: 190px;
+       display: inline-block;
+       list-style: circle; color: white;
+       padding-top: 100px;}
+
+.logo-img {
+  background: url(image/logo.png);
+  background-size: cover;
+  background-position: 10%;
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  margin-left: 500px;
+  margin-top: 25px;
+  }
+.phoneicon-img {background: url(image/phoneicon.png);
+background-size: cover;
+background-position: 10%;
+position: absolute;
+width: 15px;
+height: 15px;
+margin-left: 500px;
+margin-top: 110px;}
+
+.emailicon-img {background: url(image/emailicon.png);
+background-size: cover;
+background-position: 10%;
+position: absolute;
+width: 15px;
+height: 15px;
+margin-left: 500px;
+margin-top: 80px;}
+
+.details1 {color: white;
+         margin-left: 40px;
+         margin-bottom: 90px;
+         margin-top: 0;
+         width: 100px;
+         height: 20px;
+         position: absolute;
+         font-family: sans-serif;}
+
+.details2 {color: white;
+           margin-left: 530px;
+           margin-top: 110px;
+           width: 120px;
+           height: 20px;
+           position: absolute;
+           font-family: sans-serif;}
+.box2 {background-color: #8c4d18;
+      width: 100%;
+      height: 30px;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position: 100%;
+      }
+
+h6 {color: white;
+    margin: 0;
+    padding-top: 10px;
+    font-weight: lighter}
